@@ -4,7 +4,7 @@ function PainSection(){
     return(
         <div className="Pain-wrapper bg-red-100 py-11">
             <div className="pain-title text-lg font-semibold text-left mx-5">
-            Sollicitudin Nibh Fermentum? 
+            Sollicitudin Nibh Fermentum?? 
             </div>
             <div className="pain-descriptio text-base font-normal text-left mx-5">
             People with unattractive smiles are more likely to:
