@@ -21,7 +21,7 @@ function TimerSection(){
                 </div>
                 <div className="li3 pb-6">
                     <span><img className="inline-block pr-4" src={TimeImg} alt="Logo"/></span>
-                    <span className='font-normal text-base'>Purus Tristique Sollicitudin Quam.</span>
+                    <span className='font-normal text-base'>Purus234 Tristique Sollicitudin Quam.</span>
                 </div>
 
             </div>
