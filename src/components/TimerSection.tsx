@@ -5,7 +5,7 @@ function TimerSection(){
     return(
         <div className="timeWrap mx-5">
             <div className="Timetitle text-left text-2xl font-semibold pt-8">
-                Morbi leo risus, porta ac consectetur ac, vestibuluyytu
+                Morbi leo risus, porta ac consectetur ac, vestibuluyytu123
             </div>
             <div className="time-sub-title text-left font-normal text-base py-4">
             Cras mattis consectetur purus sit amet fermentum.
