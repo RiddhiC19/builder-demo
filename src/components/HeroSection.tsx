@@ -25,7 +25,15 @@ function HeroSection(props:HeroProps){
              {props.heroDescription ?? ''}
             </div>
             <div className="guide-btn my-12">
-             <span className='rounded-3xl bg-black  text-white text-sm font-semibold uppercase px-5 py-4'>{props.buttonText}</span>
+            <button 
+                    onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href= props.buttonLink ?? '#';
+                    }}
+                    className="download-btn bg-black text-white text-sm font-semibold  px-5 py-3 rounded-3xl capitalize">
+                    {props.buttonText}
+                </button>
+             {/* <span className='rounded-3xl bg-black  text-white text-sm font-semibold uppercase px-5 py-4'>{props.buttonText}</span> */}
             </div>
         </div>
         
