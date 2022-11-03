@@ -15,8 +15,6 @@ function TimerCard(props: TimerCardProps) {
           <span className='font-normal text-base'>{props.timerCardText}</span>
         </div>
       </div>
-      {/* <TimerSection /> */}
-      
     </div>
   );
 }
