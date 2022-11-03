@@ -119,6 +119,15 @@ function App() {
         { name: 'timerCardText', type: 'string' , defaultValue: 'XYZ'},
       ],
     });
+    //Custom timerbox component
+    Builder.registerComponent(TimerSection, { 
+      name: 'Timerbox',
+      inputs: [
+        { name: 'timerCardImage', type: 'file' , defaultValue: 'image', required: true},
+        { name: 'timerCardImageAlt', type: 'string' , defaultValue: 'logo', required: true},
+        { name: 'timerCardText', type: 'string' , defaultValue: 'XYZ'},
+      ],
+    });
   },[]);
 
   return (

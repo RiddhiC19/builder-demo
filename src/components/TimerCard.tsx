@@ -15,10 +15,8 @@ function TimerCard(props: TimerCardProps) {
           <span className='font-normal text-base'>{props.timerCardText}</span>
         </div>
       </div>
-      <TimerSection />
-      <div className="guide-btn my-12">
-        <span className='rounded-3xl bg-black  text-white text-sm font-semibold uppercase px-5 py-4'>DOWNLOAD FOR FREE </span>
-      </div>
+      {/* <TimerSection /> */}
+      
     </div>
   );
 }
