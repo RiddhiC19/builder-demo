@@ -7,6 +7,7 @@ import TimerSection from './components/TimerSection';
 import FaqSection from './components/FaqSection';
 import ContactSection from './components/ContactSection';
 import FooterSection from './components/FooterSection';
+import TimerCard from './components/TimerCard';
 
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
@@ -96,6 +97,26 @@ function App() {
         { name: 'backgroundColor', type: 'color', defaultValue: '#000',},
         { name: 'cardTextColor', type: 'color', defaultValue: '#fff',},
 
+      ],
+    });
+     //Custom feature component
+     Builder.registerComponent(FeatureSection, { 
+      name: 'Feature',
+      inputs: [
+        { name: 'FeatureImage', type: 'file' , defaultValue: 'image', required: true},
+        { name: 'FeatureImageAlt', type: 'string' , defaultValue: 'logo', required: true},
+        { name: 'FeatureTitleImage', type: 'file' , defaultValue: 'XYZ'},
+        { name: 'FeatureTitle', type: 'string' , defaultValue: 'XYZ', required: true},
+        { name: 'AlignImageLeft', type: 'boolean' , defaultValue: false},
+      ],
+    });
+     //Custom timer component
+     Builder.registerComponent(TimerCard, { 
+      name: 'Timercard',
+      inputs: [
+        { name: 'timerCardImage', type: 'file' , defaultValue: 'image', required: true},
+        { name: 'timerCardImageAlt', type: 'string' , defaultValue: 'logo', required: true},
+        { name: 'timerCardText', type: 'string' , defaultValue: 'XYZ'},
       ],
     });
   },[]);
